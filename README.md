@@ -10,7 +10,7 @@ Code for GAN structure and training is in `gan.py`
 
 An experimental project of converting dark images to bright images using U-net and GAN.
 
-![](images\Gan_structure)
+![](images/Gan_structure.png)
 
 The Generator loss is a weighted sum of the Discriminator loss of generated image and the Mean Square Loss between generated image and bright image.
 
@@ -22,7 +22,7 @@ Possible Improvements:
 
 Original Dark Image
 
-![](images\165_dark.jpg)
+![](images/165_dark.jpg)
 
   Reconstructed Image with Bounding Boxes from the dark image above
 
@@ -30,5 +30,5 @@ Original Dark Image
 
 Bright Image with Bounding Boxes
 
-![](images\165_result.png)
+![](images/165_result.png)
 
